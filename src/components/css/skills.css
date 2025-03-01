@@ -1,0 +1,57 @@
+.skills {
+  display: flex;
+  gap: 23px;
+  padding: 15px;
+}
+#h1{
+    margin-top: 10px;
+    width: 10vw;
+}
+.skills .card {
+  height: 35vh;
+  background: #94a5b0;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.skills p{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.projects div h1 {
+  width: 10vw;
+}
+
+.projects{
+    height: 50vh;
+}
+
+.cards{
+    display: flex;
+    gap: 23px;
+    padding: 15px;
+}
+
+.projects .card {
+  height: 35vh;
+  background: rgba(58, 124, 190, 0.68);
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.projects .card h1{
+    justify-items: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+    width: 20vw;
+
+}
+
+.projects .card button{
+    width: 20vw;
+    margin-left: 5px;
+    background: #cfc7c7;
+    color: black;
+    font-weight: bold;
+}

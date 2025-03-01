@@ -1,0 +1,64 @@
+.contact {
+  margin-top: 35px;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  padding: 2px 0 16px 20px;
+  background-color: azure;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.input {
+  display: grid;
+  margin-top: 10px;
+}
+
+.input label {
+  font-size: 25px;
+}
+
+.input .field {
+  border: 1px solid rgba(0, 0, 0, 0.292);
+  width: 96%;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.input .field.msg {
+  resize: none;
+  height: 30vh;
+}
+
+button {
+  background-color: rgba(16, 16, 16, 0.909);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 20px;
+  width: 96%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+    background-color: rgba(168, 176, 176, 0.559);
+  }
+  .input .field {
+    width: 90%;
+  }
+  button {
+    width: 90%;
+  }
+  
+}
