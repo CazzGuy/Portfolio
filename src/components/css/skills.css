@@ -1,87 +1,113 @@
-.skills {
+@import url('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+
+/* Container Styling */
+.skills-container, .projects-container {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Hide Swiper on Desktop */
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+/* Skills Grid (for Desktop) */
+.skills-grid, .projects-grid {
   display: flex;
-  gap: 23px;
-  padding: 15px;
-}
-#h1{
-    margin-top: 10px;
-    width: 10vw;
-}
-.skills .card {
-  height: 35vh;
-  background: #94a5b0;
-  margin-top: 15px;
-  padding: 15px;
+  gap: 20px;
+  justify-content: center;
 }
 
-.skills p{
+/* Individual Cards */
+.card {
+  background-color: rgba(168, 176, 176, 0.559);
+  padding: 15px;
+  text-align: justify;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  width: 40%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card p {
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 14px;
   font-weight: bold;
-  font-size: 15px;
+  white-space: normal;
+  text-overflow: clip;
 }
 
-.projects div h1 {
-  width: 10vw;
+/* .projects-container p{
+  padding: 10px;
+} */
+
+.projects-container h1{
+  font-size: 25px;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: center;
+  
 }
 
-.projects{
-    height: 50vh;
-}
-
-.cards{
-    display: flex;
-    gap: 23px;
-    padding: 15px;
-}
-
-.projects .card {
-  height: 35vh;
-  background: rgba(58, 124, 190, 0.68);
-  margin-top: 15px;
-  padding: 15px;
-}
-
-.projects .card h1{
-    justify-items: center;
-    margin-bottom: 5px;
-    font-size: 15px;
-    width: 20vw;
-
-}
-
-.projects .card button{
-    width: 20vw;
-    margin-left: 5px;
-    background: #cfc7c7;
-    color: black;
-    font-weight: bold;
+#h1{
+  text-align: left;
+  margin-top: 8px;
+  margin-left: 75px;
 }
 
 
+/* Buttons */
+.card button {
+  background: #ece1d156;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.card button:hover {
+  background: #b0a7a7;
+}
+
+/* Swiper Navigation Arrows */
+.swiper-button-prev, .swiper-button-next {
+  color: #333;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  color: #555;
+}
+
+/* Responsive Design */
 @media screen and (max-width: 768px) {
-  
-  .skills {
-    flex-direction: column;
-    /* align-items: center; */
+  .mobile-only {
+    display: block;
   }
-  .card{
-    
+
+  .desktop-only {
+    display: none;
   }
+
+  .skills-swiper, .projects-swiper {
+    width: 95%;
+  }
+
   .card {
-    width: 80%;
-    grid-template-columns: 1frr 2fr;
+    width: 90%;
+    margin: auto;
   }
-  .projects {
-    flex-direction: column;
-    align-items: center;
-  }
-  .projects .card {
-    width: 100%;
-  }
-  .projects div h1 {
-    width: 100%;
-  }
-  .projects .card button{
-    width: 100%;
-  }
-  
 }

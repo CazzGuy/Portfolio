@@ -63,7 +63,7 @@ const Contact = () => {
     <>
       <form onSubmit={onSubmit}>
         <div className="contact flex">
-          <div className="card">
+          <div className="c-card">
             <h1>Contact me</h1>
             <div className="input">
               <label>Full Name</label>

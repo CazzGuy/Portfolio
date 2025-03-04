@@ -9,7 +9,7 @@ h1 {
   font-weight: bold;
 }
 
-.card {
+.c-card {
   padding: 2px 0 16px 20px;
   background-color: azure;
   border-radius: 5px;
@@ -50,7 +50,7 @@ button {
 
 
 @media only screen and (max-width: 600px) {
-  .card {
+  .c-card {
     width: 90%;
     background-color: rgba(168, 176, 176, 0.559);
   }

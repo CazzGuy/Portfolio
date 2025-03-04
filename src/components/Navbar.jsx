@@ -19,11 +19,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`nav ${menuOpen ? "show-menu" : ""}`} id="nav">
-      <nav>
-        <div className="nav__menu" id="nav-menu">
+    <header className="nav">
+      <nav className="nav__container">
+        <p className="nav__logo">Abhi's Portfolio</p>
+        <div className={`nav__menu ${menuOpen ? "show-menu" : ""}`} id="nav-menu">
           <ul>
-            <p>Abhi's Portfolio</p>
             <NavLink to="/" className={({ isActive }) => (isActive ? "red" : "black")}>
               <li>Home</li>
             </NavLink>
@@ -41,11 +41,15 @@ const Navbar = () => {
             ✖
           </div>
         </div>
-        <div className="nav__toggle" id="nav-toggle" onClick={() => setMenuOpen(true)}>
-          ☰
-        </div>
+
+        {/* Hide menu icon when menu is open */}
+        {!menuOpen && (
+          <div className="nav__toggle" id="nav-toggle" onClick={() => setMenuOpen(true)}>
+            ☰
+          </div>
+        )}
       </nav>
-    </div>
+    </header>
   );
 };
 
