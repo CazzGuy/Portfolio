@@ -1,17 +1,49 @@
-import React from "react";
-import "./css/navbar.css";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import "./css/navbar.css";
+
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const closeMenu = () => setMenuOpen(false);
+    document.querySelectorAll(".nav__menu a").forEach((link) => {
+      link.addEventListener("click", closeMenu);
+    });
+
+    return () => {
+      document.querySelectorAll(".nav__menu a").forEach((link) => {
+        link.removeEventListener("click", closeMenu);
+      });
+    };
+  }, []);
+
   return (
-    <div className="nav">
+    <div className={`nav ${menuOpen ? "show-menu" : ""}`} id="nav">
       <nav>
-        <ul>
-          <li>Abhi's Portfolio</li>
-          <NavLink className={(e)=>{return e.isActive?"red":"black"}} to='/'><li>Home</li></NavLink>
-          <NavLink className={(e)=>{return e.isActive?"red":"black"}} to='/about'><li>About</li></NavLink>
-          <NavLink className={(e)=>{return e.isActive?"red":"black"}} to='/skills'><li>Skills</li></NavLink>
-          <NavLink className={(e)=>{return e.isActive?"red":"black"}} to='/contact'><li>Contact Me</li></NavLink>
-        </ul>
+        <div className="nav__menu" id="nav-menu">
+          <ul>
+            <p>Abhi's Portfolio</p>
+            <NavLink to="/" className={({ isActive }) => (isActive ? "red" : "black")}>
+              <li>Home</li>
+            </NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? "red" : "black")}>
+              <li>About</li>
+            </NavLink>
+            <NavLink to="/skills" className={({ isActive }) => (isActive ? "red" : "black")}>
+              <li>Skills</li>
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? "red" : "black")}>
+              <li>Contact Me</li>
+            </NavLink>
+          </ul>
+          <div className="nav__close" id="nav-close" onClick={() => setMenuOpen(false)}>
+            ✖
+          </div>
+        </div>
+        <div className="nav__toggle" id="nav-toggle" onClick={() => setMenuOpen(true)}>
+          ☰
+        </div>
       </nav>
     </div>
   );

@@ -55,3 +55,33 @@
     color: black;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 768px) {
+  
+  .skills {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .card{
+    
+  }
+  .card {
+    width: 80%;
+    grid-template-columns: 1frr 2fr;
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects .card {
+    width: 100%;
+  }
+  .projects div h1 {
+    width: 100%;
+  }
+  .projects .card button{
+    width: 100%;
+  }
+  
+}
