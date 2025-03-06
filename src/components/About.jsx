@@ -17,11 +17,7 @@ const About = () => {
           </p>
         </div>
         <div className="image">
-          <img
-            className="img"
-            src="https://drive.google.com/uc?export=view&id=1SAh1RFd0_NtWe6DfINBsatBeRD_WMF5c"
-            alt=""
-          />
+        <a href="https://ibb.co/hRBMhkRp"><img src="https://i.ibb.co/vx3Bgbx2/Photo2.jpg" alt="Photo2" border="0"/></a>
         </div>
       </div>
     </>
