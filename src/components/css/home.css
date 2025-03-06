@@ -53,15 +53,15 @@
 
   .right {
     /* border: 2px solid black; */
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 40px;
     height: 70%;
     width: 75%;
   }
 
   .right img {
-    /* width: 170vw;
-    height: 100%; */
+    
+    height: 100%;
   }
 
   .btn > button {
