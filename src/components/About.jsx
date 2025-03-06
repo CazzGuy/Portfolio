@@ -19,7 +19,7 @@ const About = () => {
         <div className="image">
           <img
             className="img"
-            src="https://drive.google.com/file/d/1SAh1RFd0_NtWe6DfINBsatBeRD_WMF5c/view?usp=sharing"
+            src="https://drive.google.com/uc?export=view&id=1SAh1RFd0_NtWe6DfINBsatBeRD_WMF5c"
             alt=""
           />
         </div>
