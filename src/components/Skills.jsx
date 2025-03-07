@@ -23,15 +23,15 @@ const Skills = () => {
               <div className="card">
                 <h1>Python</h1>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusantium culpa rem saepe odit sed fuga quo. Earum dolorem
-                  dolor, assumenda animi maxime quam. Quam amet velit tenetur
-                  reprehenderit deleniti culpa facere tempore, officiis
-                  voluptatibus, ut corporis, quaerat ab. Doloribus, est nisi
-                  quas aspernatur iste facere hic beatae officiis provident.
-                  Possimus ut voluptatem, non atque beatae quod sequi amet dolor
-                  accusantium maxime eum, consequatur libero expedita, animi ad
-                  numquam. Explicabo, tempora!
+                  Python is a versatile, high-level programming language known
+                  for its simplicity and readability. It is widely used in web
+                  development, data science, machine learning, automation, and
+                  software development. With a vast ecosystem of libraries like
+                  NumPy, Pandas, TensorFlow, and Django, Python enables
+                  efficient coding and problem-solving. Its strong community
+                  support and cross-platform compatibility make it an ideal
+                  choice for beginners and professionals alike, empowering
+                  developers to build scalable and innovative solutions
                 </p>
               </div>
             </SwiperSlide>
@@ -39,15 +39,15 @@ const Skills = () => {
               <div className="card">
                 <h1>Java</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                  nesciunt, itaque unde illum, culpa minus, quisquam
-                  necessitatibus blanditiis ratione error magni aliquam veniam
-                  iure impedit id dolore? Aperiam, nobis, soluta aspernatur
-                  expedita laboriosam libero quas facilis enim, saepe obcaecati
-                  quia. Corrupti, fugit unde laudantium cumque expedita beatae
-                  vero, fugiat quisquam, quibusdam commodi dolor harum placeat
-                  nobis libero provident alias natus amet fuga voluptate sint
-                  delectus debitis. Voluptatibus sed expedita sint.
+                  Java is a powerful, object-oriented programming language known
+                  for its platform independence, scalability, and security.
+                  Widely used in web development, mobile applications,
+                  enterprise software, and backend systems, Java offers strong
+                  memory management and multithreading capabilities. With
+                  frameworks like Spring and Hibernate, it enables efficient
+                  development. Its write-once, run-anywhere feature makes it a
+                  top choice for developers worldwide. Java is ideal for
+                  building robust and high-performance applications.
                 </p>
               </div>
             </SwiperSlide>
@@ -55,15 +55,14 @@ const Skills = () => {
               <div className="card">
                 <h1>Web Development</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae accusantium cum facilis aliquam doloribus sunt, quae
-                  tempore eligendi odio ducimus totam doloremque animi dolores
-                  obcaecati eos, eius possimus, exercitationem enim. Quidem
-                  dolorem nemo amet inventore nulla at esse quae voluptas
-                  officiis, molestias reiciendis! Reiciendis mollitia pariatur
-                  labore eum fugit et. Et, doloremque ducimus nisi debitis
-                  corporis natus nostrum, voluptates dolores itaque officiis
-                  perspiciatis enim esse harum asperiores? Magnam, quidem cum?
+                  Web development involves designing, building, and maintaining
+                  websites and web applications. It includes front-end
+                  development using HTML, CSS, JavaScript, and frameworks like
+                  React.js, and back-end development with Node.js, MySQL, and
+                  APIs. A well-developed website ensures seamless user
+                  experience, responsiveness, and performance. With my expertise
+                  in full-stack development, I create scalable, efficient, and
+                  interactive web solutions tailored to modern digital needs.
                 </p>
               </div>
             </SwiperSlide>
@@ -76,43 +75,42 @@ const Skills = () => {
             <div className="card">
               <h1>Python</h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium culpa rem saepe odit sed fuga quo. Earum dolorem
-                dolor, assumenda animi maxime quam. Quam amet velit tenetur
-                reprehenderit deleniti culpa facere tempore, officiis
-                voluptatibus, ut corporis, quaerat ab. Doloribus, est nisi quas
-                aspernatur iste facere hic beatae officiis provident. Possimus
-                ut voluptatem, non atque beatae quod sequi amet dolor
-                accusantium maxime eum, consequatur libero expedita, animi ad
-                numquam. Explicabo, tempora!
+                Python is a versatile, high-level programming language known for
+                its simplicity and readability. It is widely used in web
+                development, data science, machine learning, automation, and
+                software development. With a vast ecosystem of libraries like
+                NumPy, Pandas, TensorFlow, and Django, Python enables efficient
+                coding and problem-solving. Its strong community support and
+                cross-platform compatibility make it an ideal choice for
+                beginners and professionals alike, empowering developers to
+                build scalable and innovative solutions
               </p>
             </div>
             <div className="card">
               <h1>Java</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                nesciunt, itaque unde illum, culpa minus, quisquam
-                necessitatibus blanditiis ratione error magni aliquam veniam
-                iure impedit id dolore? Aperiam, nobis, soluta aspernatur
-                expedita laboriosam libero quas facilis enim, saepe obcaecati
-                quia. Corrupti, fugit unde laudantium cumque expedita beatae
-                vero, fugiat quisquam, quibusdam commodi dolor harum placeat
-                nobis libero provident alias natus amet fuga voluptate sint
-                delectus debitis. Voluptatibus sed expedita sint.
+                Java is a powerful, object-oriented programming language known
+                for its platform independence, scalability, and security. Widely
+                used in web development, mobile applications, enterprise
+                software, and backend systems, Java offers strong memory
+                management and multithreading capabilities. With frameworks like
+                Spring and Hibernate, it enables efficient development. Its
+                write-once, run-anywhere feature makes it a top choice for
+                developers worldwide. Java is ideal for building robust and
+                high-performance applications.
               </p>
             </div>
             <div className="card">
               <h1>Web Development</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                accusantium cum facilis aliquam doloribus sunt, quae tempore
-                eligendi odio ducimus totam doloremque animi dolores obcaecati
-                eos, eius possimus, exercitationem enim. Quidem dolorem nemo
-                amet inventore nulla at esse quae voluptas officiis, molestias
-                reiciendis! Reiciendis mollitia pariatur labore eum fugit et.
-                Et, doloremque ducimus nisi debitis corporis natus nostrum,
-                voluptates dolores itaque officiis perspiciatis enim esse harum
-                asperiores? Magnam, quidem cum?
+                Web development involves designing, building, and maintaining
+                websites and web applications. It includes front-end development
+                using HTML, CSS, JavaScript, and frameworks like React.js, and
+                back-end development with Node.js, MySQL, and APIs. A
+                well-developed website ensures seamless user experience,
+                responsiveness, and performance. With my expertise in full-stack
+                development, I create scalable, efficient, and interactive web
+                solutions tailored to modern digital needs.
               </p>
             </div>
           </div>
@@ -133,9 +131,10 @@ const Skills = () => {
               <div className="card">
                 <h1>License Plate Detection</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum similique ea assumenda nemo id exercitationem totam
-                  enim quo dolorem dolor.
+                  Developed a Python-based license plate detection system.
+                  Action: Utilized NumPy, EasyOCR, and Pandas for image
+                  processing and text extraction. Result: Enabled automated
+                  monitoring of traffic violations and illegal parking.
                 </p>
                 <button
                   onClick={() =>
@@ -153,9 +152,10 @@ const Skills = () => {
               <div className="card">
                 <h1>Banking System</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum similique ea assumenda nemo id exercitationem totam
-                  enim quo dolorem dolor.
+                  Created a Java-based banking system for streamlined financial
+                  operations. Action: Integrated MySQL for account management,
+                  transactions, and record-keeping. Result: Enhanced banking
+                  efficiency with structured data handling.
                 </p>
                 <button
                   onClick={() =>
@@ -173,14 +173,15 @@ const Skills = () => {
               <div className="card">
                 <h1>Spotify Clone</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum similique ea assumenda nemo id exercitationem totam
-                  enim quo dolorem dolor.
+                  Developed a fully functional web-based music streaming
+                  platform. Action: Designed and implemented the interface using
+                  HTML, CSS, and JavaScript, ensuring responsiveness and
+                  interactive features similar to Spotify.
                 </p>
                 <button
                   onClick={() =>
                     window.open(
-                      "https://github.com/CazzGuy/Banking-Management-System",
+                      "https://github.com/CazzGuy/Spotify-clone",
                       "_blank"
                     )
                   }
@@ -193,14 +194,15 @@ const Skills = () => {
               <div className="card">
                 <h1>Job Portal</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum similique ea assumenda nemo id exercitationem totam
-                  enim quo dolorem dolor.
+                Developed a React-based Job Portal to connect job seekers with
+                employers. Features include job listings, user authentication,
+                resume uploads, and application tracking ensuring seamless,
+                 job search experience
                 </p>
                 <button
                   onClick={() =>
                     window.open(
-                      "https://github.com/CazzGuy/Banking-Management-System",
+                      "https://github.com/CazzGuy/Job-Portal",
                       "_blank"
                     )
                   }
@@ -217,9 +219,10 @@ const Skills = () => {
             <div className="card">
               <h1>License Plate Detection</h1>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-                nam et itaque ut voluptates error corporis beatae eveniet
-                nostrum. Ex.
+                Developed a Python-based license plate detection system. Action:
+                Utilized NumPy, EasyOCR, and Pandas for image processing and
+                text extraction. Result: Enabled automated monitoring of traffic
+                violations and illegal parking.
               </p>
               <button
                 onClick={() =>
@@ -235,9 +238,10 @@ const Skills = () => {
             <div className="card">
               <h1>Banking System</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Repudiandae beatae eveniet excepturi dolorum vero molestiae
-                magni architecto optio. Nihil, odit.
+                Created a Java-based banking system for streamlined financial
+                operations. Action: Integrated MySQL for account management,
+                transactions, and record-keeping. Result: Enhanced banking
+                efficiency with structured data handling.
               </p>
               <button
                 onClick={() =>
@@ -253,14 +257,15 @@ const Skills = () => {
             <div className="card">
               <h1>Spotify Clone</h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-                ipsam modi explicabo. Error inventore illum hic beatae culpa,
-                nisi mollitia..
+                Developed a fully functional web-based music streaming platform.
+                Action: Designed and implemented the interface using HTML, CSS,
+                and JavaScript, ensuring responsiveness and interactive features
+                similar to Spotify.
               </p>
               <button
                 onClick={() =>
                   window.open(
-                    "https://github.com/CazzGuy/Banking-Management-System",
+                    "https://github.com/CazzGuy/Spotify-clone",
                     "_blank"
                   )
                 }
@@ -271,16 +276,14 @@ const Skills = () => {
             <div className="card">
               <h1>Job Portal</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum similique ea assumenda nemo id exercitationem totam
-                enim quo dolorem dolor.
+                Developed a React-based Job Portal to connect job seekers with
+                employers. Features include job listings, user authentication,
+                resume uploads, and application tracking ensuring seamless,
+                 job search experience
               </p>
               <button
                 onClick={() =>
-                  window.open(
-                    "https://github.com/CazzGuy/Banking-Management-System",
-                    "_blank"
-                  )
+                  window.open("https://github.com/CazzGuy/Job-Portal", "_blank")
                 }
               >
                 SHOW MORE

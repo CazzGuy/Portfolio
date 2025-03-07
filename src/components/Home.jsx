@@ -35,7 +35,7 @@ const Home = () => {
             <button
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1ByCZOP9cxuYsNfP85UPAffDFSufNP_G1/view?usp=sharing",
+                  "https://drive.google.com/file/d/1Z5AoWNLTYBsAmGKQnFRxStzGKvv7lyTY/view?usp=sharing",
                   "_blank"
                 );
               }}
